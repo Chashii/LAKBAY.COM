@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+    div {
+
+width: 360px;
+height: 800px;
+top: -401px;
+left: -573px;
+background-color: #999999;
+
+}
+
+.over{
+  background-color: #45818E;
+  width: 360px;
+  height: 300px;
+  display: inline-block;
+  margin-top: 1px;
+}
+
+input[type=text], input[type=text], input[type=text] {
+  width: 73%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: 2px solid #000000;
+  background: #f1f1f1;
+  margin: 30px;
+  border-radius: 50px;
+}
+
+input[type=text]:focus, input[type=text]:focus input[type=text]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.button {
+
+margin: 14px;
+background-color: #ffffff;
+width: 150px;
+height: 21px; 
+border-radius: 50px;
+border: 2px;
+box-shadow: 0 9px #999;
+}
+
+
+.button:hover {
+
+    background-color: #8FDAEA;
+}
+
+
+.button:active {
+  background-color: #45818E;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+</style>
+<body>
+    <div> <img src="routes.png" alt="Map" style="width: 100%; top: -100px;">
+        <div class = "over">
+            <a href="Setting.html">
+            <button class="button" style="position: relative; width: 60px; height: 60px; background-color: #76A5AF; top: -510px;">☰</button>
+            </a>
+                <label for="loc" style="position: relative;top: 30px; margin: 18px;"><b>YOUR LOCATION</b></label>
+                <input type="text" name="loc" required style="position: relative;top: -20px;"> 
+                <label for="dest" style="position: relative;top: -40px; margin: 123px;"><b>DESTINATION</b></label>
+                <input type="text" name="dest" required style="position: relative;top: -60px;">
+
+
+                <input type="text" name="search" placeholder="SEARCH" required style="position: relative;top: -900px; width: 60%; margin: 90px;">
+                <a href="Commute_choose.html">
+                <button class="button" style="position: relative;top: -320px;">VEHICLE</button>
+              </a>
+              <a href = "Commute.html">
+              <button class="button" style="position: relative;top: -320px;">STOP</button>
+              </a>
+        </div>
+    </div>
+</body>
+</html>

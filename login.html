@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+     div {
+
+width: 360px;
+height: 800px;
+top: -401px;
+left: -573px;
+background-color: #76A5AF;
+     }
+
+     img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.over{
+  background-color: #45818E;
+  border-radius: 13px;
+  width: 349px;
+  height: 617px;
+  display: inline-block;
+  margin: 0 5px;
+  margin-top: -300px;
+}
+
+.overOver{
+  background-color: #76A5AF;
+  padding-top: 225px;
+  border-radius: 13px;
+  width: 340px;
+  height: 195px;
+  display: inline-block;
+  margin: 10px;
+  margin-top: -800px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 80%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: black;
+  background: #f1f1f1;
+  margin: 10px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.button {
+
+margin: 14px;
+background-color: #8FDAEA;
+width: 288px;
+height: 49px; 
+border-radius: 50px;
+border: 2px;
+box-shadow: 0 9px #999;
+}
+.button:hover {
+
+background-color: #8FDAEA;
+}
+
+
+.button:active {
+background-color: #45818E;
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
+</style>
+
+<body>
+
+    <div>
+        <img src="login.png" alt="Lakbay" style="width: 100%;">
+        <div class = "over">
+            <img src="lakbay.png" alt="Lakbay" style="width:60%; margin-top: 15px;">
+        </div>
+            <form action="Choose.html" class="overOver">
+            
+                <label for="email" style="position: relative;top: -200px; margin: 10px; color: #ffffff;"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" required style="position: relative;top: -200px;"> 
+                <label for="psw" style="position: relative;top: -200px; margin: 10px; color: #ffffff;"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required style="position: relative;top: -200px;">
+                
+                <button type="submit" class="button" style="position: relative;top: -200px;">Login</button>
+                </form>
+        </div>
+    </div>
+</body>
+
+</html>
